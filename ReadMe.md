@@ -2,7 +2,7 @@ Basic prototype for Recommender Service APIs
 Implemented with Flask, scikit-surprise 
 
 TODO: 
-* Implement with real -- currently only placeholder data 
+* Implement with real data -- currently only placeholder data 
 * Explore Scikit-learn; tensorflow recommender algorithms
 * Paginate API results (important)
 * Allow choice of algorithm via API 
