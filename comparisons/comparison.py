@@ -18,6 +18,6 @@ for l, rec in zip(labels, algorithms):
     predictions = rec.fit(trainset).test(testset)
     rec_rmse = accuracy.rmse(predictions, verbose = False)
     end = time.time() - start 
-    print(f'{l} -- accuracy:{rec_rmse:2f} time: {end:2f}')
+    print(f'{l} -- RMSE:{rec_rmse:2f} time: {end:2f}')
     
     

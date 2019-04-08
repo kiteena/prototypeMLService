@@ -8,3 +8,6 @@ TODO:
 * Allow choice of algorithm via API 
 * Add swagger 
 * Add tests (current testing is local using Postman)
+
+
+* Popularity model... 
