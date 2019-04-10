@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updatedPropertyDetails xmlns:UpdatedPropertyDetails="http://www.zillow.com/static/xsd/UpdatedPropertyDetails.xsd" xsi:schemaLocation="http://www.zillow.com/static/xsd/UpdatedPropertyDetails.xsd https://www.zillowstatic.com/vstatic/7de9b24/static/xsd/UpdatedPropertyDetails.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<request>
+		<zpid>
+			271990
+		</zpid>
+	</request>
+	<message>
+		<text>
+			Request successfully processed
+		</text>
+		<code>
+			0
+		</code>
+	</message>
+	<response>
+		<zpid>
+			271990
+		</zpid>
+		<pageViewCount>
+			<currentMonth>
+				1
+			</currentMonth>
+			<total>
+				1
+			</total>
+		</pageViewCount>
+		<address>
+			<street>
+				134 Wildflower Dr
+			</street>
+			<zipcode>
+				72076
+			</zipcode>
+			<city>
+				Jacksonville
+			</city>
+			<state>
+				AR
+			</state>
+			<latitude>
+				34.873404
+			</latitude>
+			<longitude>
+				-92.185797
+			</longitude>
+		</address>
+		<links>
+			<homeDetails>
+				https://www.zillow.com/homedetails/134-Wildflower-Dr-Jacksonville-AR-72076/271990_zpid/
+			</homeDetails>
+			<photoGallery>
+				https://www.zillow.com/homedetails/134-Wildflower-Dr-Jacksonville-AR-72076/271990_zpid/#image=lightbox%3Dtrue
+			</photoGallery>
+			<homeInfo>
+				https://www.zillow.com/homedetails/134-Wildflower-Dr-Jacksonville-AR-72076/271990_zpid/
+			</homeInfo>
+		</links>
+		<images>
+			<count>
+				25
+			</count>
+			<image>
+				<url>
+					https://photos.zillowstatic.com/p_d/ISug8e3y30uvvl0000000000.jpg
+				</url>
+				<url>
+					https://photos.zillowstatic.com/p_d/ISekw6byazy18u0000000000.jpg
+				</url>
+				<url>
+					https://photos.zillowstatic.com/p_d/IS6euusr6rq48u0000000000.jpg
+				</url>
+				<url>
+					https://photos.zillowstatic.com/p_d/ISy7sial2ji78u0000000000.jpg
+				</url>
+				<url>
+					https://photos.zillowstatic.com/p_d/ISq1q6seyaaa8u0000000000.jpg
+				</url>
+			</image>
+		</images>
+		<editedFacts>
+			<useCode>
+				SingleFamily
+			</useCode>
+			<bedrooms>
+				3
+			</bedrooms>
+			<bathrooms>
+				2.0
+			</bathrooms>
+			<finishedSqFt>
+				1324
+			</finishedSqFt>
+			<lotSizeSqFt>
+				7013
+			</lotSizeSqFt>
+			<yearBuilt>
+				1980
+			</yearBuilt>
+			<numFloors>
+				1
+			</numFloors>
+			<numRooms>
+				3
+			</numRooms>
+			<basement>
+				None
+			</basement>
+			<roof>
+				Asphalt
+			</roof>
+			<exteriorMaterial>
+				Brick, Wood
+			</exteriorMaterial>
+			<parkingType>
+				Garage - Attached
+			</parkingType>
+			<coveredParkingSpaces>
+				2
+			</coveredParkingSpaces>
+			<heatingSources>
+				Gas
+			</heatingSources>
+			<heatingSystem>
+				Other
+			</heatingSystem>
+			<coolingSystem>
+				Central
+			</coolingSystem>
+			<appliances>
+				Dishwasher, Garbage disposal, Range / Oven
+			</appliances>
+			<floorCovering>
+				Carpet, Laminate, Tile
+			</floorCovering>
+			<rooms>
+				Family room
+			</rooms>
+			<architecture>
+				Ranch / Rambler
+			</architecture>
+		</editedFacts>
+		<homeDescription>
+			Open floor plan with eat in kitchen. 3 bed 2 bath with a nice fenced in backyard on a level lot. Convenient area. 1 car garage.
+		</homeDescription>
+		<whatOwnerLoves>
+			New hot water heater 2011
+			New living room flooring 2017
+			Small tool workshop in garage
+			One car garage
+			Shaded backyard
+			Pulaski County School District
+			Quiet Street
+			Don Hughes Park nearby
+		</whatOwnerLoves>
+	</response>
+</updatedPropertyDetails>
+<!-- H:033  T:52ms  S:1109  R:Tue Apr 09 18:04:52 PDT 2019  B:5.0.59670.1-hotfix_2019-04-09.c2bebc3~hotfix-platform-for-2019-04-09.27659af -->

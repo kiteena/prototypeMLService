@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updatedPropertyDetails xmlns:UpdatedPropertyDetails="http://www.zillow.com/static/xsd/UpdatedPropertyDetails.xsd" xsi:schemaLocation="http://www.zillow.com/static/xsd/UpdatedPropertyDetails.xsd https://www.zillowstatic.com/vstatic/7de9b24/static/xsd/UpdatedPropertyDetails.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<request>
+	</request>
+	<message>
+		<text>
+			Error: invalid zpid parameter
+		</text>
+		<code>
+			500
+		</code>
+	</message>
+</updatedPropertyDetails>
+<!-- H:033  T:5ms  S:102  R:Tue Apr 09 19:03:51 PDT2019  B:5.0.59670.1-hotfix_2019-04-09.c2bebc3~hotfix-platform-for-2019-04-09.27659af -->
+{http://www.zillow.com/static/xsd/UpdatedPropertyDetails.xsd}updatedPropertyDetails
