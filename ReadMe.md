@@ -1,6 +1,10 @@
 Basic prototype for Recommender Service APIs 
 Implemented with Flask, scikit-surprise
 
+Install libraries in this order to build:
+* pip3 install numpy
+* pip3 install requirements.txt 
+
 Exploratory Zillow API code and data under zillowAPI directory 
 
 TODO: 
