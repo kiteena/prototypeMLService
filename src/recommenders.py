@@ -1,7 +1,7 @@
 from collections import defaultdict
 from surprise import SVD, KNNBasic
 from surprise import Dataset
-from surprise.model_selection import train_test_split
+# from surprise.model_selection import train_test_split
 
 # import sys  
 # sys.path.insert(0, '/home/kristina/Documents/prototypeMLService')
@@ -11,7 +11,11 @@ from src.algorithms import labels, algorithms
 
 class Recommenders: 
     def __init__(self, dataset, algorithm): 
-        self.trainSet, self.testSet =  train_test_split(dataset, test_size=.25)
+        # self.trainSet, self.testSet =  train_test_split(dataset, test_size=.25)
+        raw_ratings = dataset.raw_ratings
+        threshold = int(.9 * len(raw_ratings))
+        self.trainSet = dataset.build_full_trainset()
+        self.testSet = dataset.construct_testset(raw_ratings[threshold:])
         self.algo = algorithms[labels.index(algorithm)]
         self.unorderedPredictions = None
         self.orderedPredictions = defaultdict(list)
@@ -24,8 +28,9 @@ class Recommenders:
             self.createOrderedDictionary() 
         return userID in self.orderedPredictions.keys()
 
-    def getAllUsersPredictions(self):        
-        self.unorderedPredictions = self.algo.fit(self.trainSet).test(self.testSet)
+    def getAllUsersPredictions(self):
+        self.algo.train(self.trainSet)        
+        self.unorderedPredictions = self.algo.test(self.testSet)
         return self.unorderedPredictions
 
 
